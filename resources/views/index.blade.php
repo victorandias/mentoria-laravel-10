@@ -325,7 +325,7 @@
           <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
           <script src="c/js/dashboard.js"></script>
           <script src="c/js/color-modes.js"></script>
-          
+
           {{-- InputMask --}}
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 
