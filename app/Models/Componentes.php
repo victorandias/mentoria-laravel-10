@@ -9,7 +9,7 @@ class Componentes extends Model
 {
     use HasFactory;
 
-    public function formatacaoMarcaraDinheiroDecimal($valorParaFormatar){
+    public function formatacaoMascaraDinheiroDecimal($valorParaFormatar){
         $tamanho = strlen($valorParaFormatar);
         $dados = str_replace(',', '.', $valorParaFormatar);
         if ($tamanho <= 6 ) {
