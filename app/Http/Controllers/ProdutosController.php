@@ -55,6 +55,7 @@ class ProdutosController extends Controller
             $buscaRequistro = Produto::find($id);
             $buscaRequistro->update( $data);
 
+            Toastr::success('Atualizado com sucesso');
              return redirect()->route('produto.index');
         }
         $findProduto = Produto::where('id', '=', $id)->first();
